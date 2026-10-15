@@ -1,0 +1,19 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Scraped Data (Keep folder, ignore large generated files)
+scraped_data/*.csv
+scraped_data/*.json
+!scraped_data/.gitkeep
+
+# Temp / Scratch
+scratch/
+.idea/
+.vscode/
